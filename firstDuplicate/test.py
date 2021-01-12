@@ -83,6 +83,7 @@ class CodeSignalTests(unittest.TestCase):
         actual = firstDuplicate([1, 1, 2, 2, 1])
         self.assertEqual(actual, expected)
 
+class CustomTests(unittest.TestCase):
     @timeout_decorator.timeout(EXECUTION_TIME_LIMIT)
     def test_emptyList(self):
         expected = -1
