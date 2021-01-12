@@ -1,5 +1,7 @@
-# Copied shamelessly from https://github.com/github/gitignore/blob/master/Python.gitignore
+# Leave out VS Code files
+.vscode
 
+# The below was copied shamelessly from https://github.com/github/gitignore/blob/master/Python.gitignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
