@@ -1,5 +1,8 @@
 # Leave out VS Code files
-.vscode
+.vscode/
+
+# Leave out my template directory
+template/
 
 # The below was copied shamelessly from https://github.com/github/gitignore/blob/master/Python.gitignore
 # Byte-compiled / optimized / DLL files
