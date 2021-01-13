@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 timeout-decorator = "*"
+numpy = "*"
 
 [dev-packages]
 
