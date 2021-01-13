@@ -4,7 +4,7 @@ from solution import firstNotRepeatingCharacter
 
 EXECUTION_TIME_LIMIT = 4
 
-class Tests(unittest.TestCase):
+class CodeSignalTests(unittest.TestCase):
     def setUp(self):
         self.example1 = "abacabad"
         self.example2 = "abacabaabacaba"
