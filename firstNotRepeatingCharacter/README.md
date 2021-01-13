@@ -1,4 +1,4 @@
-# ???
+# firstNotRepeatingCharacter
 
 **Source: [CodeSignal](https://app.codesignal.com/)**  
 This question is listed as "easy" on their site and is intended to take 15 minutes.  
