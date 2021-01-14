@@ -6,7 +6,7 @@ It is supposedly one of the questions asked by Amazon, Microsoft, and Apple duri
 
 ## Problem
 
-You are given an n x n 2D matrix that represents an image. Rotate the image by 90 degrees (clockwise).
+You are given an `n` x `n` 2D matrix that represents an image. Rotate the image by 90 degrees (clockwise).
 
 _Note: Try to solve this task in-place (with O(1) additional memory), since this is what you'll be asked to do during an interview._
 
@@ -34,7 +34,7 @@ rotateImage(a) = [
 
 ## Input/Output
 
-* Execution time limit: 4
+* Execution time limit: 4 seconds (py3)
 * Type: array.array.integer `a`
 * Guaranteed constraints
   * `1 ≤ a.length ≤ 100`

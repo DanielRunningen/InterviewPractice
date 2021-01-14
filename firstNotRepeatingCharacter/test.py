@@ -4,6 +4,7 @@ from solution import firstNotRepeatingCharacter
 
 EXECUTION_TIME_LIMIT = 4
 
+# All tests in this class come directly from CodeSignal
 class CodeSignalTests(unittest.TestCase):
    def setUp(self):
       self.example1 = "abacabad"
