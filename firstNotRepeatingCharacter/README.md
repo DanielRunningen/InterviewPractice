@@ -26,4 +26,4 @@ There are no characters in this string that do not repeat.
 * Guaranteed constraints
   * A string that contains only lowercase English letters.
   * `1 ≤ s.length ≤ 105`
-* Output: char, the first non-repeating character in s, or '_' if there are no characters that do not repeat.
+* Output: char, the first non-repeating character in `s`, or `'_'` if there are no characters that do not repeat.
