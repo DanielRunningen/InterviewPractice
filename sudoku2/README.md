@@ -56,8 +56,9 @@ Each column, each row, and each `3` × `3` subgrid can only contain the numbers 
 ## Input/Output
 
 * Execution time limit: 4 seconds (py3)
-* Type: array.array.char `grid`
-* Guaranteed constraints
-  * A `9` × `9` 2D array of characters
-  * Characters are either a digit from `'1'` to `'9'` or a period `'.'`
+* Inputs:
+   * `grid` as a 2D array of characters
+      * Guaranteed constraints
+         * A `9` × `9` 2D array of characters
+         * Characters are either a digit from `'1'` to `'9'` or a period `'.'`
 * Output: boolean, `true` if grid represents a valid Sudoku puzzle, else `false`.

@@ -1,4 +1,4 @@
-# First Duplicate
+# firstDuplicate
 
 **Source: [CodeSignal](https://app.codesignal.com/)**  
 This question is listed as "easy" on their site and is intended to take 15 minutes.  
@@ -24,8 +24,9 @@ For `a = [2, 4, 3, 5, 1]`, the output should be `firstDuplicate(a) = -1`.
 ## Input/Output
 
 * Execution time limit: 4 seconds (py3)
-* Type: array.integer `a`
-* Guaranteed constraints
-  * `1 ≤ a.length ≤ 105`
-  * `1 ≤ a[i] ≤ a.length`
+* Inputs:
+   * `a` as an array of integers
+      * Guaranteed constraints
+         * `1 ≤ a.length ≤ 105`
+         * `1 ≤ a[i] ≤ a.length`
 * Output: integer, the element in `a` that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return `-1`.

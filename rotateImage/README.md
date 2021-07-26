@@ -35,9 +35,10 @@ rotateImage(a) = [
 ## Input/Output
 
 * Execution time limit: 4 seconds (py3)
-* Type: array.array.integer `a`
-* Guaranteed constraints
-  * `1 ≤ a.length ≤ 100`
-  * `a[i].length = a.length`
-  * `1 ≤ a[i][j] ≤ 104`
+* Inputs:
+   * `a` as a 2D array of integers
+      * Guaranteed constraints
+         * `1 ≤ a.length ≤ 100`
+         * `a[i].length = a.length`
+         * `1 ≤ a[i][j] ≤ 104`
 * Output: array.array.integer
