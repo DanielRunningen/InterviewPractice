@@ -26,5 +26,5 @@ There are no characters in this string that do not repeat.
    * `s` as a string
       * Guaranteed constraints
          * A string that contains only lowercase English letters.
-         * `1 ≤ s.length ≤ 105`
+         * `1 ≤ s.length ≤ 10^5`
 * Output: the first non-repeating character in `s`, or `'_'` if there are no characters that do not repeat.

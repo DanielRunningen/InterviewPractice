@@ -27,6 +27,6 @@ For `a = [2, 4, 3, 5, 1]`, the output should be `firstDuplicate(a) = -1`.
 * Inputs:
    * `a` as an array of integers
       * Guaranteed constraints
-         * `1 ≤ a.length ≤ 105`
+         * `1 ≤ a.length ≤ 10^5`
          * `1 ≤ a[i] ≤ a.length`
 * Output: integer, the element in `a` that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return `-1`.
