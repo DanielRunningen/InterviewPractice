@@ -9,6 +9,8 @@ Given a singly linked list of integers `l` and an integer `k`, remove all elemen
 
 _Note: Try to solve this task in `O(n)` time using `O(1)` additional space, where n is the number of elements in the list, since this is what you'll be asked to do during an interview._
 
+_Note: in examples below and tests preview linked lists are presented as arrays just for simplicity of visualization: in real data you will be given a head node `l` of the linked list._
+
 ## Example
 
 For `l = [3, 1, 2, 3, 4, 5]` and `k = 3`, the output should be `removeKFromList(l, k) = [1, 2, 4, 5]`.
