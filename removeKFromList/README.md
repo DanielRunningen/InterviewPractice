@@ -1,8 +1,7 @@
 # removeKFromList
 
 **Source: [CodeSignal](https://app.codesignal.com/)**  
-This question is listed as "easy" on their site and is intended to take 15 minutes.  
-It is supposedly one of the questions asked by ??? during interviews.
+This question is listed as "easy" on their site and is intended to take 15 minutes.
 
 ## Problem
 
