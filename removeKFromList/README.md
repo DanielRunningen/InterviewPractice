@@ -21,8 +21,11 @@ For `l = [1, 2, 3, 4, 5, 6, 7]` and `k = 10`, the output should be `removeKFromL
 
 * Execution time limit: Execution time limit: 4 seconds (py3)
 * Inputs:
-   * ??? as ???
+   * `l` as a singly linked list of integers
       * Guaranteed constraints
-         * ???
-         * ???
-* Output: ???
+         * `0 ≤ list size ≤ 10^5`
+         * `-1000 ≤ element value ≤ 1000`
+   * `k` as an integer
+      * Guaranteed constraints
+         * `-1000 ≤ k ≤ 1000`
+* Output: a singly linked list of integers, `l` with all instances of `k` removed.
