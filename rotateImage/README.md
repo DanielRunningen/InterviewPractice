@@ -41,4 +41,4 @@ rotateImage(a) = [
          * `1 ≤ a.length ≤ 100`
          * `a[i].length = a.length`
          * `1 ≤ a[i][j] ≤ 104`
-* Output: array.array.integer
+* Output: a 2D array of integers representing the rotated image

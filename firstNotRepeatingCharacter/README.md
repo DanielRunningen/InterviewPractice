@@ -22,8 +22,9 @@ There are no characters in this string that do not repeat.
 ## Input/Output
 
 * Execution time limit: 4 seconds (py3)
-* Type: string `s`
-* Guaranteed constraints
-  * A string that contains only lowercase English letters.
-  * `1 ≤ s.length ≤ 105`
-* Output: char, the first non-repeating character in `s`, or `'_'` if there are no characters that do not repeat.
+* Inputs:
+   * `s` as a string
+      * Guaranteed constraints
+         * A string that contains only lowercase English letters.
+         * `1 ≤ s.length ≤ 105`
+* Output: the first non-repeating character in `s`, or `'_'` if there are no characters that do not repeat.

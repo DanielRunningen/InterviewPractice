@@ -21,14 +21,16 @@ Note that number `0` doesn't contain leading zeroes (while for example `00` or `
 For `crypt = ["SEND", "MORE", "MONEY"]` and
 
 ```python
-solution = [['O', '0'],
-            ['M', '1'],
-            ['Y', '2'],
-            ['E', '5'],
-            ['N', '6'],
-            ['D', '7'],
-            ['R', '8'],
-            ['S', '9']]
+solution = [
+   ['O', '0'],
+   ['M', '1'],
+   ['Y', '2'],
+   ['E', '5'],
+   ['N', '6'],
+   ['D', '7'],
+   ['R', '8'],
+   ['S', '9']
+]
 ```
 
 the output should be `isCryptSolution(crypt, solution) = true`.
@@ -38,11 +40,13 @@ When you decrypt `"SEND"`, `"MORE"`, and `"MONEY"` using the mapping given in `c
 For `crypt = ["TEN", "TWO", "ONE"]` and
 
 ```python
-solution = [['O', '1'],
-            ['T', '0'],
-            ['W', '9'],
-            ['E', '5'],
-            ['N', '4']]
+solution = [
+   ['O', '1'],
+   ['T', '0'],
+   ['W', '9'],
+   ['E', '5'],
+   ['N', '4']
+]
 ```
 
 the output should be `isCryptSolution(crypt, solution) = false`.
@@ -67,4 +71,4 @@ Even though `054 + 091 = 145`, `054` and `091` both contain leading zeroes, mean
          * `'0' ≤ solution[i][1] ≤ '9'`
          * `solution[i][0] ≠ solution[j][0]` when `i ≠ j`
          * `solution[i][1] ≠ solution[j][1]` when `i ≠ j`
-* Output: boolean, `true` if the `solution` represents the correct solution to the cryptarithm `crypt`, otherwise return `false`.
+* Output: a boolean, `true` if the `solution` represents the correct solution to the cryptarithm `crypt`, otherwise return `false`.
