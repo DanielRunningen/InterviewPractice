@@ -1,3 +1,7 @@
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from helpers.listNode import listToLinkedList
+
 import unittest
 import timeout_decorator
 from solution import isListPalindrome
@@ -5,19 +9,10 @@ from solution import isListPalindrome
 EXECUTION_TIME_LIMIT = 4
 
 # Singly-linked lists are pre-defined in CodeSignal with this interface:
-class ListNode:
-   def __init__(self, x):
-      self.value = x
-      self.next = None
-
-def listToLinkedList(l):
-   head = None
-   last = None
-   while len(l) > 0:
-      head = ListNode(l.pop())
-      head.next = last
-      last = head
-   return head
+# class ListNode:
+#    def __init__(self, x):
+#       self.value = x
+#       self.next = None
 
 class Tests(unittest.TestCase):
    def setUp(self):
