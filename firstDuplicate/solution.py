@@ -1,3 +1,6 @@
+# This solution was developed in November of 2020
+# All tests passed after 11 minutes of development time
+
 def firstDuplicate(a):
     b = set()
     for x in a:

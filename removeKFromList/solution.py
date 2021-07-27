@@ -1,3 +1,7 @@
+# This solution was developed in November of 2020
+# I left this problem open for longer than I was likely working on it
+#   and don't have an accurate time estimate
+
 # Singly-linked lists are pre-defined in CodeSignal with this interface:
 # class ListNode(object):
 #    def __init__(self, x):

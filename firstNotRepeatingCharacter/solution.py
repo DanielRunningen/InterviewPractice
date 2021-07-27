@@ -1,3 +1,6 @@
+# This solution was developed in November of 2020
+# All tests passed after 6 minutes of development time
+
 def firstNotRepeatingCharacter(s):
     my_dict = dict()
     for c in s:

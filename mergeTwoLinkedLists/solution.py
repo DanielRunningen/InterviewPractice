@@ -1,5 +1,5 @@
 # This solution was developed in November of 2020
-# All tests passed after 58 minutes and 17 seconds of development time
+# All tests passed after 59 minutes of development time
 
 # Singly-linked lists are already pre-defined in CodeSignal with this interface:
 # class ListNode(object):
